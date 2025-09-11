@@ -4,7 +4,7 @@ A modern personal portfolio website built with **React, TypeScript, Vite, Tailwi
 
 ## 🌐 Live Demo
 
-[Portfolio 2.0]([https://github.com/sarveshsinghthakur/Portfolio-2.0](https://portfolio-2-0-msn764sse-sars-projects-d2931c00.vercel.app))
+[Portfolio 2.0](https://portfolio-2-0-msn764sse-sars-projects-d2931c00.vercel.app)
 
 ## 📂 Project Info
 
