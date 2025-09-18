@@ -1,5 +1,4 @@
 # 🚀 Portfolio 2.0
-
 A modern personal portfolio website built with **React, TypeScript, Vite, Tailwind CSS, and shadcn-ui**.
 
 ## 🌐 Live Demo
