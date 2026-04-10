@@ -1,9 +1,24 @@
 import { ArrowUpRight, BadgeCheck, BookOpen, Code2, MapPin, School, Trophy } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import { leetcodeSnapshot, personalInfo } from "@/data/portfolio";
+import { personalInfo } from "@/data/portfolio";
+import { leetcodeSnapshot } from "@/data/leetcode-snapshot";
+
+const leetcodeFocusTags = [
+  "Full Stack",
+  "Frontend",
+  "RAG",
+  "Data Scientist",
+  "Agentic AI",
+];
 
 const LeetCode = () => {
+  const maxLanguageSolved = Math.max(...leetcodeSnapshot.languages.map((language) => language.solved), 1);
+  const solvedRatioDegrees = Math.max(
+    32,
+    Math.min((leetcodeSnapshot.solved / Math.max(leetcodeSnapshot.totalSubmissions, 1)) * 360, 360),
+  );
+
   return (
     <section id="leetcode" className="space-y-6">
       <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
@@ -56,7 +71,7 @@ const LeetCode = () => {
           </div>
 
           <div className="mt-6 flex flex-wrap gap-2">
-            {leetcodeSnapshot.focusTags.map((tag) => (
+            {leetcodeFocusTags.map((tag) => (
               <span
                 key={tag}
                 className="rounded-full border border-white/8 bg-primary/10 px-3 py-2 text-xs uppercase tracking-[0.18em] text-primary"
@@ -86,7 +101,7 @@ const LeetCode = () => {
                 <div
                   className="relative flex h-44 w-44 items-center justify-center rounded-full"
                   style={{
-                    background: `conic-gradient(hsl(var(--primary)) 0deg 255deg, rgba(255,255,255,0.08) 255deg 360deg)`,
+                    background: `conic-gradient(hsl(var(--primary)) 0deg ${solvedRatioDegrees}deg, rgba(255,255,255,0.08) ${solvedRatioDegrees}deg 360deg)`,
                   }}
                 >
                   <div className="absolute h-32 w-32 rounded-full bg-[#111111]" />
@@ -175,7 +190,7 @@ const LeetCode = () => {
                     <div className="h-2 rounded-full bg-white/8">
                       <div
                         className="h-2 rounded-full bg-primary"
-                        style={{ width: `${Math.min((language.solved / 325) * 100, 100)}%` }}
+                        style={{ width: `${Math.min((language.solved / maxLanguageSolved) * 100, 100)}%` }}
                       />
                     </div>
                   </div>

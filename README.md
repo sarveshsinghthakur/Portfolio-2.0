@@ -7,6 +7,7 @@ Personal portfolio built with Vite, React, TypeScript, shadcn/ui, and Tailwind C
 - Dark three-panel portfolio layout
 - Resume-based experience section
 - Dedicated LeetCode section
+- Hourly LeetCode snapshot refresh through GitHub Actions
 - Blog page for full-stack, data science, and AI writing
 - Contact form integration
 
@@ -21,4 +22,10 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+## Refresh LeetCode Snapshot
+
+```sh
+npm run update:leetcode
 ```

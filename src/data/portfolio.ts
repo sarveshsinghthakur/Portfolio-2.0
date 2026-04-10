@@ -1,3 +1,5 @@
+import { leetcodeSnapshot as liveLeetcodeSnapshot } from "./leetcode-snapshot";
+
 export type SocialLink = {
   label: string;
   href: string;
@@ -55,7 +57,7 @@ export type BlogPost = {
 export const personalInfo = {
   name: "Sarvesh Singh",
   headline: "Full-Stack Developer | Data Scientist | Software Engineer",
-  shortHeadline: "Software Developer • Data Science Enthusiast • Problem Solver",
+  shortHeadline: "Software Developer - Data Science Enthusiast - Problem Solver",
   summary:
     "Passionate developer with expertise in web development, machine learning, and software engineering. I love creating innovative solutions to complex problems.",
   location: "Gurugram, Haryana, India",
@@ -94,7 +96,7 @@ export const socialLinks: SocialLink[] = [
 export const quickStats: StatItem[] = [
   { value: "20+", label: "Completed Projects" },
   { value: "5", label: "Internships & Roles" },
-  { value: "443", label: "LeetCode Problems Solved" },
+  { value: String(liveLeetcodeSnapshot.solved), label: "LeetCode Problems Solved" },
   { value: "2026", label: "Expected Graduation" },
 ];
 
