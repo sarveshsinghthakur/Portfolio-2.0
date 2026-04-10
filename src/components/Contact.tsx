@@ -35,33 +35,53 @@ const socialLinks = [
   { label: "Instagram", href: personalInfo.instagram, icon: <Instagram className="h-4 w-4" /> },
 ];
 
+const initialFormValues = {
+  name: "",
+  email: "",
+  message: "",
+};
+
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formValues, setFormValues] = useState(initialFormValues);
+  const [submissionState, setSubmissionState] = useState<"idle" | "success" | "error">("idle");
   const { toast } = useToast();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setSubmissionState("idle");
 
-    const formData = new FormData(e.currentTarget);
+    const formElement = e.currentTarget;
+    const formData = new FormData(formElement);
     formData.append("access_key", "61eec48d-90b9-489b-a580-04d0e323ddab");
+    formData.append("subject", "New portfolio message from contact form");
+    formData.append("from_name", formValues.name);
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
+        headers: {
+          Accept: "application/json",
+        },
         body: formData,
       });
 
-      if (!response.ok) {
-        throw new Error("Failed to send message");
+      const result = await response.json().catch(() => null);
+
+      if (!response.ok || result?.success === false) {
+        throw new Error(result?.message || "Failed to send message");
       }
 
+      setSubmissionState("success");
+      setFormValues(initialFormValues);
+      formElement.reset();
       toast({
         title: "Message sent successfully!",
-        description: "Thank you for reaching out. I'll get back to you soon.",
+        description: "Your message was delivered to my inbox successfully.",
       });
-      e.currentTarget.reset();
     } catch {
+      setSubmissionState("error");
       toast({
         title: "Failed to send message",
         description: "Please try again or contact me directly via email.",
@@ -71,6 +91,14 @@ const Contact = () => {
       setIsSubmitting(false);
     }
   };
+
+  const handleChange = (field: keyof typeof initialFormValues) =>
+    (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+      setFormValues((current) => ({
+        ...current,
+        [field]: e.target.value,
+      }));
+    };
 
   return (
     <section id="contact" className="space-y-6">
@@ -165,13 +193,23 @@ const Contact = () => {
             <h3 className="mt-3 text-2xl font-semibold text-white">
               Start the conversation here.
             </h3>
+            <p className="mt-3 text-sm leading-7 text-white/58">
+              Messages from this form are delivered directly to my Gmail inbox.
+            </p>
+            {submissionState === "success" && (
+              <p className="mt-3 rounded-2xl border border-primary/20 bg-primary/10 px-4 py-3 text-sm text-primary">
+                Message sent successfully. Your name, email, and message were cleared after delivery.
+              </p>
+            )}
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-5">
+          <form onSubmit={handleSubmit} className="space-y-5" autoComplete="off">
             <div className="space-y-2">
               <label className="text-sm font-medium text-white/75">Full Name</label>
               <Input
                 name="name"
+                value={formValues.name}
+                onChange={handleChange("name")}
                 placeholder="Enter your full name"
                 required
                 className="rounded-2xl border-white/10 bg-black/30 text-white placeholder:text-white/28"
@@ -183,6 +221,8 @@ const Contact = () => {
               <Input
                 type="email"
                 name="email"
+                value={formValues.email}
+                onChange={handleChange("email")}
                 placeholder="your.email@example.com"
                 required
                 className="rounded-2xl border-white/10 bg-black/30 text-white placeholder:text-white/28"
@@ -193,6 +233,8 @@ const Contact = () => {
               <label className="text-sm font-medium text-white/75">Message</label>
               <Textarea
                 name="message"
+                value={formValues.message}
+                onChange={handleChange("message")}
                 placeholder="Tell me about your project, opportunity, or idea..."
                 rows={6}
                 required
