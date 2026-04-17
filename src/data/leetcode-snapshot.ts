@@ -87,6 +87,6 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
       "solved": 56
     }
   ],
-  "lastSyncedIso": "2026-04-17T03:18:06.834Z",
-  "lastSyncedLabel": "Auto-synced from LeetCode - Apr 17, 2026, 3:18 AM UTC"
+  "lastSyncedIso": "2026-04-17T06:06:24.174Z",
+  "lastSyncedLabel": "Auto-synced from LeetCode - Apr 17, 2026, 6:06 AM UTC"
 };
