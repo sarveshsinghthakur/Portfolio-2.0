@@ -36,9 +36,9 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
   "username": "sarvesh8882589477",
   "name": "Sarvesh Singh",
   "ranking": "217,503",
-  "solved": 468,
-  "totalSubmissions": 826,
-  "easy": 214,
+  "solved": 469,
+  "totalSubmissions": 830,
+  "easy": 215,
   "medium": 227,
   "hard": 27,
   "totalBadges": 5,
@@ -50,7 +50,7 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
   "languages": [
     {
       "name": "Python3",
-      "solved": 359
+      "solved": 360
     },
     {
       "name": "C++",
@@ -68,7 +68,7 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
   "strongTopics": [
     {
       "name": "Array",
-      "solved": 285
+      "solved": 286
     },
     {
       "name": "String",
@@ -76,7 +76,7 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
     },
     {
       "name": "Hash Table",
-      "solved": 102
+      "solved": 103
     },
     {
       "name": "Math",
@@ -87,6 +87,6 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
       "solved": 58
     }
   ],
-  "lastSyncedIso": "2026-05-19T18:09:20.737Z",
-  "lastSyncedLabel": "Auto-synced from LeetCode - May 19, 2026, 6:09 PM UTC"
+  "lastSyncedIso": "2026-05-19T22:19:18.112Z",
+  "lastSyncedLabel": "Auto-synced from LeetCode - May 19, 2026, 10:19 PM UTC"
 };
