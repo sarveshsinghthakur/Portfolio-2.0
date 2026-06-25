@@ -43,7 +43,7 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
   "hard": 27,
   "totalBadges": 6,
   "currentBadge": "100 Days Badge 2026",
-  "avatar": "https://assets.leetcode.com/users/sarvesh8882589477/avatar_1782389189.png",
+  "avatar": "https://assets.leetcode.com/users/sarvesh8882589477/avatar_1782416652.png",
   "about": "Full-Stack Software Engineer & Data Scientist",
   "school": "Dcrust university",
   "country": "India",
@@ -87,6 +87,6 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
       "solved": 63
     }
   ],
-  "lastSyncedIso": "2026-06-25T18:14:16.727Z",
-  "lastSyncedLabel": "Auto-synced from LeetCode - Jun 25, 2026, 6:14 PM UTC"
+  "lastSyncedIso": "2026-06-25T21:00:11.960Z",
+  "lastSyncedLabel": "Auto-synced from LeetCode - Jun 25, 2026, 9:00 PM UTC"
 };
