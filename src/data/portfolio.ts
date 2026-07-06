@@ -95,7 +95,7 @@ export const socialLinks: SocialLink[] = [
 
 export const quickStats: StatItem[] = [
   { value: "20+", label: "Completed Projects" },
-  { value: "5", label: "Internships & Roles" },
+  { value: "6", label: "Internships & Roles" },
   { value: String(liveLeetcodeSnapshot.solved), label: "LeetCode Problems Solved" },
   { value: "2026", label: "Expected Graduation" },
 ];
@@ -177,6 +177,18 @@ export const expertiseItems: SkillItem[] = [
 ];
 
 export const experienceItems: ExperienceItem[] = [
+  {
+    role: "Data Science Intern",
+    company: "VCBay Solutions Pvt Ltd",
+    duration: "Mar 2026 - Jul 2026",
+    summary:
+      "Delivered data science and analytics solutions for client Maxify, focusing on end-to-end ML workflows.",
+    highlights: [
+      "Handled client Maxify, delivering data science and analytics solutions using Python, Pandas, and Machine Learning.",
+      "Performed data preprocessing, EDA, and feature engineering on structured datasets; built predictive models.",
+      "Contributed to internal side projects involving automation and machine learning workflows.",
+    ],
+  },
   {
     role: "Data Science Intern",
     company: "Celebal Technologies",
