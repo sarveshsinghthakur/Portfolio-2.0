@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import Contact from "@/components/Contact";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
+import Certificates from "@/components/Certificates";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import LeetCode from "@/components/LeetCode";
@@ -37,6 +38,7 @@ const Index = () => {
         <Skills />
         <Experience />
         <Education />
+        <Certificates />
         <Projects />
         <LeetCode />
         <Contact />

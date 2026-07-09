@@ -80,6 +80,7 @@ export const primaryNavItems = [
   { label: "Skills", href: "/#skills" },
   { label: "Experience", href: "/#experience" },
   { label: "Education", href: "/#education" },
+  { label: "Certificates", href: "/#certificates" },
   { label: "Projects", href: "/#projects" },
   { label: "LeetCode", href: "/#leetcode" },
   { label: "Contact", href: "/#contact" },

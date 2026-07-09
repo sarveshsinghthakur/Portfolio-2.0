@@ -20,12 +20,12 @@ const Projects = () => {
           <p className="text-sm uppercase tracking-[0.28em] text-primary">
             Projects
           </p>
-          <h2 className="mt-3 text-3xl font-semibold text-white md:text-4xl">
+          <h2 className="mt-3 text-3xl font-semibold text-foreground md:text-4xl">
             A redesigned showcase of your existing project work.
           </h2>
         </div>
-        <p className="max-w-2xl text-sm leading-7 text-white/55 md:text-base">
-          The content is still sourced from your portfolio project list. The update focuses on layout, hierarchy, interaction, and a portfolio style closer to your reference.
+        <p className="max-w-2xl text-sm leading-7 text-muted-foreground md:text-base">
+          The content is still sourced from your portfolio project list. The update focuses on layout, hierarchy, interaction, and a minimalist white and black style.
         </p>
       </div>
 
@@ -37,8 +37,8 @@ const Projects = () => {
             onClick={() => setActiveFilter(filter)}
             className={`rounded-full px-4 py-2 text-sm font-medium transition ${
               activeFilter === filter
-                ? "bg-primary text-black"
-                : "border border-white/8 bg-white/[0.03] text-white/68 hover:border-primary/30 hover:text-white"
+                ? "bg-primary text-primary-foreground"
+                : "border border-border bg-secondary text-muted-foreground hover:border-primary/30 hover:text-foreground"
             }`}
           >
             {filter}
@@ -50,7 +50,7 @@ const Projects = () => {
         {filteredProjects.map((project) => (
           <article
             key={project.title}
-            className="group overflow-hidden rounded-[28px] border border-white/6 bg-[#111111] shadow-[0_18px_60px_rgba(0,0,0,0.28)] transition hover:-translate-y-1 hover:border-primary/35 hover:shadow-[0_24px_80px_rgba(66,255,145,0.1)]"
+            className="group overflow-hidden rounded-[28px] border border-border bg-background shadow-sm transition hover:-translate-y-1 hover:border-primary/35 hover:shadow-md"
           >
             <div className="relative h-52 overflow-hidden">
               <img
@@ -66,8 +66,8 @@ const Projects = () => {
 
             <div className="space-y-5 p-6">
               <div>
-                <h3 className="text-2xl font-semibold text-white">{project.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-white/58 md:text-base">
+                <h3 className="text-2xl font-semibold text-foreground">{project.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-muted-foreground md:text-base">
                   {project.description}
                 </p>
               </div>
@@ -76,7 +76,7 @@ const Projects = () => {
                 {project.technologies.map((tech) => (
                   <span
                     key={tech}
-                    className="rounded-full border border-white/8 bg-black/30 px-3 py-2 text-xs uppercase tracking-[0.18em] text-white/60"
+                    className="rounded-full border border-border bg-secondary px-3 py-2 text-xs uppercase tracking-[0.18em] text-muted-foreground"
                   >
                     {tech}
                   </span>
@@ -86,7 +86,7 @@ const Projects = () => {
               <div className="flex flex-wrap gap-3">
                 <Button
                   asChild
-                  className="rounded-2xl bg-primary text-black hover:bg-primary/90"
+                  className="rounded-2xl bg-primary text-primary-foreground hover:bg-primary/90"
                 >
                   <a href={project.githubUrl} target="_blank" rel="noreferrer">
                     <Github className="mr-2 h-4 w-4" />
@@ -96,7 +96,7 @@ const Projects = () => {
                 <Button
                   asChild
                   variant="outline"
-                  className="rounded-2xl border-white/10 bg-white/[0.03] text-white hover:bg-white/[0.06] hover:text-white"
+                  className="rounded-2xl border-border bg-secondary text-foreground hover:bg-secondary/80 hover:text-foreground"
                 >
                   <a href={project.githubUrl} target="_blank" rel="noreferrer">
                     Open Project

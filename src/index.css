@@ -6,33 +6,33 @@
 
 @layer base {
   :root {
-    --background: 0 0% 3%;
-    --foreground: 210 20% 96%;
+    --background: 0 0% 2%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 7%;
-    --card-foreground: 210 20% 96%;
+    --card: 0 0% 4%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 7%;
-    --popover-foreground: 210 20% 96%;
+    --popover: 0 0% 4%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 141 100% 63%;
-    --primary-foreground: 0 0% 4%;
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 220 15% 13%;
-    --secondary-foreground: 210 20% 96%;
+    --secondary: 0 0% 7%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 220 12% 12%;
-    --muted-foreground: 215 14% 63%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 141 75% 18%;
-    --accent-foreground: 210 20% 96%;
+    --accent: 0 0% 15%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 72% 51%;
-    --destructive-foreground: 210 20% 96%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 14%;
-    --input: 0 0% 14%;
-    --ring: 141 100% 63%;
+    --border: 0 0% 12%;
+    --input: 0 0% 12%;
+    --ring: 0 0% 100%;
 
     --radius: 1rem;
   }
@@ -48,7 +48,8 @@
   body {
     @apply bg-background text-foreground antialiased;
     font-family: "Space Grotesk", sans-serif;
-    background-color: #050505;
+    background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 24px 24px;
   }
 
   a {
@@ -75,7 +76,7 @@
 
   .portfolio-scroll {
     scrollbar-width: thin;
-    scrollbar-color: rgba(66, 255, 145, 0.7) rgba(255, 255, 255, 0.05);
+    scrollbar-color: rgba(0, 0, 0, 0.3) rgba(255, 255, 255, 0.8);
   }
 
   .portfolio-scroll::-webkit-scrollbar {
@@ -84,16 +85,16 @@
   }
 
   .portfolio-scroll::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(0, 0, 0, 0.03);
     border-radius: 999px;
   }
 
   .portfolio-scroll::-webkit-scrollbar-thumb {
-    background: rgba(66, 255, 145, 0.7);
+    background: rgba(0, 0, 0, 0.3);
     border-radius: 999px;
   }
 
   .portfolio-scroll::-webkit-scrollbar-thumb:hover {
-    background: rgba(66, 255, 145, 0.95);
+    background: rgba(0, 0, 0, 0.5);
   }
 }
