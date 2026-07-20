@@ -37,7 +37,7 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
   "name": "Sarvesh Singh",
   "ranking": "180,378",
   "solved": 527,
-  "totalSubmissions": 927,
+  "totalSubmissions": 928,
   "easy": 242,
   "medium": 256,
   "hard": 29,
@@ -87,6 +87,6 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
       "solved": 70
     }
   ],
-  "lastSyncedIso": "2026-07-20T13:09:13.529Z",
-  "lastSyncedLabel": "Auto-synced from LeetCode - Jul 20, 2026, 1:09 PM UTC"
+  "lastSyncedIso": "2026-07-20T15:53:17.461Z",
+  "lastSyncedLabel": "Auto-synced from LeetCode - Jul 20, 2026, 3:53 PM UTC"
 };
