@@ -38,8 +38,8 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
   "ranking": "179,809",
   "solved": 527,
   "totalSubmissions": 928,
-  "easy": 242,
-  "medium": 256,
+  "easy": 241,
+  "medium": 257,
   "hard": 29,
   "totalBadges": 6,
   "currentBadge": "100 Days Badge 2026",
@@ -87,6 +87,6 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
       "solved": 70
     }
   ],
-  "lastSyncedIso": "2026-07-22T06:32:45.127Z",
-  "lastSyncedLabel": "Auto-synced from LeetCode - Jul 22, 2026, 6:32 AM UTC"
+  "lastSyncedIso": "2026-07-22T09:29:07.535Z",
+  "lastSyncedLabel": "Auto-synced from LeetCode - Jul 22, 2026, 9:29 AM UTC"
 };
