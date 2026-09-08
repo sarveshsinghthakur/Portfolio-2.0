@@ -35,7 +35,7 @@ export type LeetCodeSnapshot = {
 export const leetcodeSnapshot: LeetCodeSnapshot = {
   "username": "sarvesh8882589477",
   "name": "Sarvesh Singh",
-  "ranking": "163,125",
+  "ranking": "162,622",
   "solved": 563,
   "totalSubmissions": 997,
   "easy": 252,
@@ -87,6 +87,6 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
       "solved": 78
     }
   ],
-  "lastSyncedIso": "2026-09-08T07:04:33.862Z",
-  "lastSyncedLabel": "Auto-synced from LeetCode - Sep 8, 2026, 7:04 AM UTC"
+  "lastSyncedIso": "2026-09-08T12:43:39.101Z",
+  "lastSyncedLabel": "Auto-synced from LeetCode - Sep 8, 2026, 12:43 PM UTC"
 };
