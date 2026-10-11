@@ -35,10 +35,10 @@ export type LeetCodeSnapshot = {
 export const leetcodeSnapshot: LeetCodeSnapshot = {
   "username": "sarvesh8882589477",
   "name": "Sarvesh Singh",
-  "ranking": "156,893",
-  "solved": 578,
-  "totalSubmissions": 1015,
-  "easy": 258,
+  "ranking": "157,077",
+  "solved": 579,
+  "totalSubmissions": 1017,
+  "easy": 259,
   "medium": 284,
   "hard": 36,
   "totalBadges": 7,
@@ -50,7 +50,7 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
   "languages": [
     {
       "name": "Python3",
-      "solved": 473
+      "solved": 474
     },
     {
       "name": "C++",
@@ -68,7 +68,7 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
   "strongTopics": [
     {
       "name": "Array",
-      "solved": 347
+      "solved": 348
     },
     {
       "name": "String",
@@ -87,6 +87,6 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
       "solved": 78
     }
   ],
-  "lastSyncedIso": "2026-10-11T08:31:35.118Z",
-  "lastSyncedLabel": "Auto-synced from LeetCode - Oct 11, 2026, 8:31 AM UTC"
+  "lastSyncedIso": "2026-10-11T15:27:51.722Z",
+  "lastSyncedLabel": "Auto-synced from LeetCode - Oct 11, 2026, 3:27 PM UTC"
 };
