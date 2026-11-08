@@ -36,11 +36,11 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
   "username": "sarvesh8882589477",
   "name": "Sarvesh Singh",
   "ranking": "156,806",
-  "solved": 650,
-  "totalSubmissions": 1100,
-  "easy": 300,
-  "medium": 310,
-  "hard": 40,
+  "solved": 583,
+  "totalSubmissions": 1023,
+  "easy": 263,
+  "medium": 284,
+  "hard": 36,
   "totalBadges": 7,
   "currentBadge": "365 Days Badge",
   "avatar": "https://assets.leetcode.com/users/sarvesh8882589477/avatar_1782416652.png",
@@ -87,6 +87,6 @@ export const leetcodeSnapshot: LeetCodeSnapshot = {
       "solved": 79
     }
   ],
-  "lastSyncedIso": "2026-11-08T02:09:27.999Z",
-  "lastSyncedLabel": "Auto-synced from LeetCode - Nov 8, 2026, 2:09 AM UTC"
+  "lastSyncedIso": "2026-11-08T10:00:01.584Z",
+  "lastSyncedLabel": "Auto-synced from LeetCode - Nov 8, 2026, 10:00 AM UTC"
 };
