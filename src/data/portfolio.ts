@@ -258,7 +258,7 @@ export const educationItems: EducationItem[] = [
     title: "COLLEGE",
     institution: "DCRUST University",
     description:
-      "Pursuing BTech in Electronics and Communication Engineering at DCRUST University with a CGPA of 7.75.",
+      "Completed BTech in Electronics and Communication Engineering at DCRUST University with a CGPA of 7.75.",
     grade: "7.75 CGPA",
     link: "https://www.dcrustedp.in/",
     isActive: true,

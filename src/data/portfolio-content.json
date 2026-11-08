@@ -1,0 +1,591 @@
+{
+  "profile": {
+    "fullName": "Sarvesh Singh",
+    "displayName": "Sarvesh Singh",
+    "firstName": "SARVESH",
+    "role": "Full-Stack Software Engineer | Data Scientist | B.Tech ECE",
+    "headline": "Full-Stack Software Engineer | Data Scientist | B.Tech ECE",
+    "email": "sarvesh8882589477@gmail.com",
+    "phone": "+91 8882589477",
+    "location": "Gurugram, Haryana, India",
+    "intro": "Software Developer & Cyber Security Engineer at Grand Ortus Solution, with a B.Tech in Electronics & Communication Engineering from DCRUST (CGPA 7.75) — building full-stack platforms with FastAPI, Django, Next.js and React, plus ML and retrieval systems with Python, LangGraph, Qdrant and OpenCV.",
+    "links": {
+      "github": "https://github.com/sarveshsinghthakur",
+      "linkedin": "https://www.linkedin.com/in/sarvesh-singh-1a751a28b/",
+      "leetcode": "https://leetcode.com/u/sarvesh8882589477/",
+      "instagram": "https://www.instagram.com/s.sarvesh_singh/"
+    },
+    "website": "https://sarveshsingh09.netlify.app",
+    "githubHandle": "sarveshsinghthakur",
+    "githubStats": {
+      "publicRepos": 54,
+      "followers": 3,
+      "following": 1,
+      "joined": "July 2024"
+    }
+  },
+  "education": [
+    {
+      "institution": "Deenbandhu Chhotu Ram University of Science & Technology (DCRUST)",
+      "degree": "Bachelor of Technology (B.Tech) in Electronics & Communication Engineering",
+      "period": "Nov 2022 – Jun 2026",
+      "score": "CGPA 7.75",
+      "location": "Murthal, Haryana"
+    },
+    {
+      "institution": "Dev Samaj Vidya Niketan School",
+      "degree": "Inter Schooling (CBSE)",
+      "period": "Completed 2022",
+      "score": "86%",
+      "location": "Gurgaon, Haryana"
+    },
+    {
+      "institution": "Dev Samaj Vidya Niketan School",
+      "degree": "High Schooling (CBSE)",
+      "period": "Completed 2020",
+      "score": "88%",
+      "location": "Gurgaon, Haryana"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Grand Ortus Solution Private Limited",
+      "role": "Software Developer & Cyber Security Engineer",
+      "period": "Oct 2026 – Present",
+      "highlights": [
+        "Work directly with the company's cyber security clients as a cyber security engineer.",
+        "Manage and maintain the company website and other company-related websites, including adding new features and add-ons.",
+        "Handle SEO and AEO tasks on the company website."
+      ]
+    },
+    {
+      "company": "VCBay Solutions Pvt Ltd",
+      "role": "Data Science Intern",
+      "period": "Mar 2026 – Sep 2026",
+      "highlights": [
+        "Worked on analytics and data science assignments for the client Maxify, using Python and structured data-processing workflows.",
+        "Cleaned and preprocessed datasets, ran exploratory analysis and engineered features for predictive modeling.",
+        "Contributed to machine-learning and internal automation projects, checking dataset quality and the outputs of the analysis."
+      ]
+    },
+    {
+      "company": "Celebal Technologies",
+      "role": "Data Science Intern",
+      "period": "Jun 2025 – Aug 2025",
+      "highlights": [
+        "Applied machine learning and statistical analysis to solve real-world business problems.",
+        "Performed EDA, data preprocessing, and feature engineering on large structured datasets.",
+        "Built predictive models using Python, Pandas, NumPy, and Scikit-learn improving analytical insights."
+      ]
+    },
+    {
+      "company": "CodeAlpha",
+      "role": "Full-Stack / Django Developer Intern",
+      "period": "May 2024 – Aug 2024",
+      "highlights": [
+        "Developed scalable full-stack web applications using Django, Next.js, and PostgreSQL.",
+        "Built FashionFusion, an e-commerce platform with authentication, product management, and order workflows.",
+        "Created Gemini Clone, an AI-based chat system with real-time conversations and context-aware responses."
+      ]
+    },
+    {
+      "company": "AmpleTrails Biometric System",
+      "role": "Technical Support Specialist",
+      "period": "Jul 2024 – Aug 2024",
+      "highlights": [
+        "Provided technical troubleshooting, deployment assistance, and system configuration for enterprise biometric solutions."
+      ]
+    },
+    {
+      "company": "LetGlobe",
+      "role": "UI/UX & Web Developer",
+      "period": "Nov 2023 – Dec 2023",
+      "highlights": [
+        "Designed UI and UX flows aligned with product needs and user clarity.",
+        "Worked on feature development using React and REST APIs."
+      ]
+    },
+    {
+      "company": "Bharat Internships",
+      "role": "Frontend Developer Intern",
+      "period": "Oct 2023 – Nov 2023",
+      "highlights": [
+        "Developed three production-ready React applications with responsive UI components.",
+        "Toolspedia: Text transformation utilities with reusable component architecture.",
+        "Newsloop: Real-time news aggregation platform integrated with News API.",
+        "Chat-Room: Live messaging web app using React, Node.js, and WebSocket communication."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "CodeForge AI",
+      "year": "2026",
+      "category": "FastAPI / Next.js / Redis",
+      "description": "Coding practice platform with a Monaco editor, AI-assisted coding, problem generation, activity tracking and Docker-isolated code execution.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/codeforge-ai",
+      "technologies": [
+        "FastAPI",
+        "Next.js",
+        "PostgreSQL",
+        "Redis",
+        "Mistral"
+      ]
+    },
+    {
+      "title": "BOOM - ZOOM Clone",
+      "year": "2025",
+      "category": "WebRTC / Next.js",
+      "description": "An alternative version of Zoom providing web-based conference calls built using Next.js and WebRTC.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/BOOM---ZOOM_Clone---",
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "WebRTC",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "title": "FashionFusion",
+      "year": "2024",
+      "category": "Django / Python",
+      "description": "Full-stack Django e-commerce platform with authentication, catalog, shopping cart, and orders.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/FashionFusion",
+      "technologies": [
+        "Django",
+        "Python",
+        "HTML",
+        "CSS",
+        "SQLite"
+      ]
+    },
+    {
+      "title": "Livedocs",
+      "year": "2025",
+      "category": "Next.js / Real-Time",
+      "description": "Real-time collaborative document editing web application inspired by Google Docs.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/Livedocs",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Real-Time"
+      ]
+    },
+    {
+      "title": "Facial Recognition Attendance",
+      "year": "2024",
+      "category": "Computer Vision / ML",
+      "description": "Automated attendance marking system powered by OpenCV and facial recognition.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/Facial_Recognition",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "NumPy",
+        "ML"
+      ]
+    },
+    {
+      "title": "Gemini Clone",
+      "year": "2024",
+      "category": "AI / Django",
+      "description": "AI-powered conversational interface clone with prompt history and context-aware responses.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/gemini-clone",
+      "technologies": [
+        "Django",
+        "Python",
+        "AI API",
+        "HTML"
+      ]
+    },
+    {
+      "title": "Volume Control Gesture",
+      "year": "2024",
+      "category": "Computer Vision",
+      "description": "Hands-free volume control gesture system using Python and MediaPipe computer vision.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/Volume-Control-Gesture",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "MediaPipe"
+      ]
+    },
+    {
+      "title": "Healthcare Backend",
+      "year": "2026",
+      "category": "Django / DRF / PostgreSQL",
+      "description": "Healthcare REST API with patients, doctors and patient-doctor assignments — documented 39 tests covering auth and access control.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/healthcare-backend",
+      "technologies": [
+        "Python",
+        "Django",
+        "DRF",
+        "PostgreSQL",
+        "JWT"
+      ]
+    },
+    {
+      "title": "DotRAG",
+      "year": "2026",
+      "category": "RAG / FastAPI / LangGraph",
+      "description": "PDF ingestion and retrieval: text extraction, chunking, embeddings and semantic search with LangGraph workflows and source citations.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/dotrag",
+      "technologies": [
+        "FastAPI",
+        "React",
+        "LangGraph",
+        "Mistral",
+        "Qdrant"
+      ]
+    },
+    {
+      "title": "Vitto Loan Repayment Service",
+      "year": "2026",
+      "category": "Next.js / PostgreSQL / Firebase",
+      "description": "Repayment schedules, payment allocation, outstanding-balance tracking and overdue calculations behind authenticated APIs.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/vitto-loan-repayment-service",
+      "technologies": [
+        "Next.js",
+        "PostgreSQL",
+        "Firebase"
+      ]
+    },
+    {
+      "title": "SMS Spam Classifier",
+      "year": "2026",
+      "category": "Machine Learning",
+      "description": "Text classification service flagging SMS spam with Naive Bayes and TF-IDF behind a FastAPI web UI.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/sms-spam-classifier",
+      "technologies": [
+        "Python",
+        "Scikit-learn",
+        "FastAPI",
+        "TF-IDF"
+      ]
+    },
+    {
+      "title": "Soocial",
+      "year": "2024",
+      "category": "Django / Real-Time",
+      "description": "Real-time chat application developed using Django and WebSockets.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/Soocial",
+      "technologies": [
+        "Django",
+        "Python",
+        "WebSockets"
+      ]
+    },
+    {
+      "title": "DALL·E Clone",
+      "year": "2024",
+      "category": "Flask / AI",
+      "description": "AI image generator built with Flask that turns text prompts into generated artwork.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/DALLE-Clone",
+      "technologies": [
+        "Python",
+        "Flask",
+        "OpenAI API"
+      ]
+    },
+    {
+      "title": "NewsLoop",
+      "year": "2024",
+      "category": "React / News API",
+      "description": "Real-time news aggregation platform built with React and integrated with the News API.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/NewsLoop",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "News API"
+      ]
+    },
+    {
+      "title": "Toolspedia",
+      "year": "2024",
+      "category": "React / Utilities",
+      "description": "Text transformation utility hub with a reusable React component architecture.",
+      "githubUrl": "https://github.com/sarveshsinghthakur/Toolspedia",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "title": "Credit Card Fraud Detection",
+      "year": "2026",
+      "category": "Machine Learning",
+      "description": "Classification workflow covering transaction-data preprocessing, feature preparation and model evaluation to flag likely fraud.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+      "C",
+      "C++"
+    ],
+    "web": [
+      "FastAPI",
+      "React.js",
+      "Next.js",
+      "Django",
+      "Django REST Framework",
+      "Flask",
+      "Node.js",
+      "Express.js",
+      "HTML5",
+      "CSS3"
+    ],
+    "dataScience": [
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "TensorFlow",
+      "OpenCV",
+      "Machine Learning",
+      "LangGraph",
+      "Qdrant",
+      "Embeddings"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "Redis",
+      "MySQL",
+      "MongoDB"
+    ],
+    "security": [
+      "Cyber Security",
+      "JWT Authentication",
+      "SEO",
+      "AEO",
+      "API Testing"
+    ],
+    "tools": [
+      "Git",
+      "Linux (Ubuntu)",
+      "Docker",
+      "AWS",
+      "REST APIs",
+      "SSE",
+      "CI Checks"
+    ]
+  },
+  "achievements": [
+    {
+      "title": "3rd Position — Meme Mastermind",
+      "organization": "EY Techathon 4.0 & IIT Patna",
+      "detail": "Secured 3rd rank among elite engineering teams."
+    },
+    {
+      "title": "Global Rank 12,583",
+      "organization": "TCS CodeVita Season 13",
+      "detail": "Competed in high-level competitive coding against worldwide talent."
+    },
+    {
+      "title": "650+ Problems Solved",
+      "organization": "LeetCode Profile",
+      "detail": "Consistent problem solver with over 650+ solved problems on LeetCode across Data Structures & Algorithms.",
+      "link": "https://leetcode.com/u/sarvesh8882589477/"
+    },
+    {
+      "title": "54 Public Repositories",
+      "organization": "GitHub · sarveshsinghthakur",
+      "detail": "54 public repositories spanning full-stack, data science, computer vision and GenAI — most with live deployments.",
+      "link": "https://github.com/sarveshsinghthakur"
+    },
+    {
+      "title": "Campus Ambassador",
+      "organization": "IIM Calcutta (7 Lakes Fest 2023)",
+      "detail": "Recognized for outstanding leadership and campus outreach."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Tata CodeVita",
+      "issuer": "Tata Consultancy Services",
+      "issued": "Jul 2026",
+      "link": "https://www.tcs.com/"
+    },
+    {
+      "title": "Deloitte Australia — Data Analytics Job Simulation",
+      "issuer": "Forage",
+      "issued": "Mar 2026",
+      "credentialId": "D84R3DaFXac9Tfigs",
+      "link": "https://www.theforage.com/"
+    },
+    {
+      "title": "LangChain: Deep Agents",
+      "issuer": "LangChain",
+      "issued": "Mar 2026",
+      "credentialId": "ootkwovd9a",
+      "skills": [
+        "Agentic AI Development",
+        "Deep Agents"
+      ],
+      "link": "https://www.langchain.com/"
+    },
+    {
+      "title": "Claude with the Anthropic API",
+      "issuer": "Anthropic",
+      "issued": "Mar 2026",
+      "credentialId": "oeu4wtvmy9j7",
+      "link": "https://www.anthropic.com/"
+    },
+    {
+      "title": "AI Fluency: Framework & Foundations",
+      "issuer": "Anthropic",
+      "issued": "Mar 2026",
+      "link": "https://www.anthropic.com/"
+    },
+    {
+      "title": "Introduction to Model Context Protocol",
+      "issuer": "Anthropic",
+      "issued": "Mar 2026",
+      "credentialId": "ixnquvcbe3n9",
+      "link": "https://www.anthropic.com/"
+    },
+    {
+      "title": "Claude 101",
+      "issuer": "Anthropic",
+      "issued": "Mar 2026",
+      "link": "https://www.anthropic.com/"
+    },
+    {
+      "title": "Claude Code in Action",
+      "issuer": "Anthropic",
+      "issued": "Mar 2026",
+      "link": "https://www.anthropic.com/"
+    },
+    {
+      "title": "160 Days of Problem Solving",
+      "issuer": "GeeksforGeeks",
+      "skills": [
+        "DSA",
+        "C++"
+      ],
+      "link": "https://www.geeksforgeeks.org/"
+    },
+    {
+      "title": "Agentic AI",
+      "issuer": "GeeksforGeeks",
+      "skills": [
+        "Python",
+        "n8n"
+      ],
+      "link": "https://www.geeksforgeeks.org/"
+    },
+    {
+      "title": "Data Analyst",
+      "issuer": "OneRoadmap",
+      "issued": "Sep 2025",
+      "skills": [
+        "Python",
+        "Data Analysis"
+      ]
+    },
+    {
+      "title": "SQL (Advanced)",
+      "issuer": "HackerRank",
+      "issued": "May 2025",
+      "skills": [
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "link": "https://www.hackerrank.com/"
+    },
+    {
+      "title": "JavaScript (Basic)",
+      "issuer": "HackerRank",
+      "issued": "May 2025",
+      "skills": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "link": "https://www.hackerrank.com/"
+    },
+    {
+      "title": "JavaScript (Intermediate)",
+      "issuer": "HackerRank",
+      "issued": "May 2025",
+      "skills": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "link": "https://www.hackerrank.com/"
+    },
+    {
+      "title": "Python",
+      "issuer": "HackerRank",
+      "issued": "Apr 2025",
+      "skills": [
+        "Python"
+      ],
+      "link": "https://www.hackerrank.com/"
+    },
+    {
+      "title": "Software Engineer",
+      "issuer": "HackerRank",
+      "issued": "Mar 2025",
+      "skills": [
+        "C++"
+      ],
+      "link": "https://www.hackerrank.com/"
+    },
+    {
+      "title": "Python Fundamentals for Beginners",
+      "issuer": "Great Learning",
+      "skills": [
+        "Python"
+      ],
+      "link": "https://www.greatlearning.in/"
+    },
+    {
+      "title": "Introduction to Career Skills in Data Analytics",
+      "issuer": "LinkedIn",
+      "link": "https://www.linkedin.com/"
+    },
+    {
+      "title": "Front End Development - HTML",
+      "issuer": "Great Learning",
+      "link": "https://www.greatlearning.in/"
+    },
+    {
+      "title": "Front End Development - CSS",
+      "issuer": "Great Learning",
+      "link": "https://www.greatlearning.in/"
+    },
+    {
+      "title": "Introduction to JavaScript",
+      "issuer": "Great Learning",
+      "link": "https://www.greatlearning.in/"
+    },
+    {
+      "title": "Data Structures in C",
+      "issuer": "Great Learning",
+      "link": "https://www.greatlearning.in/"
+    },
+    {
+      "title": "Backend Web Development using Express and Node.js",
+      "issuer": "DevTown",
+      "link": "https://www.devtown.in/"
+    },
+    {
+      "title": "JavaScript & React.js Bootcamp",
+      "issuer": "DevTown",
+      "link": "https://www.devtown.in/"
+    },
+    {
+      "title": "Python and Artificial Intelligence Bootcamp",
+      "issuer": "DevTown",
+      "link": "https://www.devtown.in/"
+    }
+  ]
+}

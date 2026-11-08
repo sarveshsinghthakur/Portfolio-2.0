@@ -22,10 +22,10 @@ const Index = () => {
 
     const sectionId = location.hash.replace("#", "");
     const timeoutId = window.setTimeout(() => {
-      document.getElementById(sectionId)?.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     }, 50);
 
     return () => window.clearTimeout(timeoutId);
